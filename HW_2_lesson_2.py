@@ -3,6 +3,7 @@
 
 my_list = list(input('Введите список любых числовых значений: '))
 print(my_list)
+print(my_list)
 
 my_new_list = 0
 for i in range(int(len(my_list)/2)):
@@ -10,3 +11,5 @@ for i in range(int(len(my_list)/2)):
     my_new_list +=2
 
 print(my_list)
+
+#второй вывод для минимальных изменений
